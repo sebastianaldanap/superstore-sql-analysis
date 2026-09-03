@@ -1,2 +1,3 @@
-# PROYECTO_SQL
-Proyecto final de la especialización de Data Academy Latam
+# PROYECTO_SQL_SUPPLY
+Proyecto final de SQL de Data Academy Latam
+
