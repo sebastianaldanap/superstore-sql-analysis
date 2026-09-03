@@ -1,0 +1,17 @@
+-- =============================================
+-- 02_load_staging_data.sql
+-- Objetivo: Documentar el proceso de carga del dataset
+-- =============================================
+
+-- La carga del archivo Superstores.csv se realizó mediante el 
+-- asistente "Import Flat File" de SSMS (clic derecho sobre la base de 
+-- datos → Tasks → Import Flat File), no mediante script T-SQL directo.
+--
+-- Durante el proceso se ajustaron manualmente los siguientes tipos de 
+-- datos detectados automáticamente por el asistente:
+--   - Postal_Code: cambiado de INT a NVARCHAR(10), para preservar 
+--     códigos postales con ceros iniciales (ej. 05401).
+--   - Sales, Discount, Profit: cambiados de FLOAT a DECIMAL, 
+--     para evitar errores de redondeo en cálculos financieros.
+--
+-- El schema final resultante está documentado en 01_create_staging_table.sql
