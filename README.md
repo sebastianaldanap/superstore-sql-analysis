@@ -13,7 +13,6 @@
 7. [Preguntas de Negocio](#7-preguntas-de-negocio)
 8. [Storytelling del Análisis](#8-storytelling-del-análisis)
 9. [Conclusiones y Recomendaciones](#9-conclusiones-y-recomendaciones)
-10. [Cómo Reproducir este Análisis](#10-cómo-reproducir-este-análisis)
 
 ## 1. Descripción del Proyecto
 Proyecto de análisis de datos desarrollado en SQL Server (T-SQL) sobre 
