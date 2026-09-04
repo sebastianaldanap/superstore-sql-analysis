@@ -73,13 +73,13 @@ SELECT Row_ID, Order_ID, Order_Date, Ship_Date, Ship_Mode, Customer_ID, Product_
 FROM Superstore;
 
 -- ---------- Validación final ----------
-SELECT COUNT(*) AS Total_Dim_Customers FROM Dim_Customers;   -- Esperado: 793
-SELECT COUNT(*) AS Total_Dim_Products FROM Dim_Products;     -- Esperado: 1,862
-SELECT COUNT(*) AS Total_Fact_Orders FROM Fact_Orders;       -- Esperado: 9,993
+SELECT COUNT(*) AS Total_Dim_Customers FROM Dim_Customers;   -- Resultado: 793
+SELECT COUNT(*) AS Total_Dim_Products FROM Dim_Products;     -- Resultado: 1,862
+SELECT COUNT(*) AS Total_Fact_Orders FROM Fact_Orders;       -- Resultado: 9,993
 
 -- Verifica que el JOIN entre las 3 tablas reconstruya el total original
 SELECT COUNT(*) AS TotalJoined
 FROM Fact_Orders f
 INNER JOIN Dim_Customers c ON f.Customer_ID = c.Customer_ID
 INNER JOIN Dim_Products p ON f.Product_ID = p.Product_ID;
--- Esperado: 9,993 (confirma que no hubo pérdida de registros en el modelo)
+-- Resultado: 9,993 (confirma que no hubo pérdida de registros en el modelo)

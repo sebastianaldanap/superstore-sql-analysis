@@ -44,17 +44,17 @@ de línea de producto por pedido.
 
 ## Notas de Diseño del Modelo Dimensional
 
-- **Ubicación como atributo del pedido, no del cliente:** durante la 
+- **Ubicación como atributo del pedido, no del cliente:** Durante la 
   construcción del modelo se detectó que un mismo `Customer_ID` puede tener 
   múltiples ubicaciones distintas (hasta 5 en algunos casos), correspondientes 
   a distintas direcciones de envío. Por esta razón, `City`, `State`, 
   `Postal_Code` y `Region` se ubicaron en `Fact_Orders`, no en `Dim_Customers`.
 
-- **Deduplicación de Product_ID:** el dataset original reutiliza algunos 
+- **Deduplicación de Product_ID:** El dataset original reutiliza algunos 
   `Product_ID` para productos con nombres distintos (defecto heredado del 
   dataset original de Tableau, republicado en Kaggle). Se resolvió con 
   `ROW_NUMBER()` para conservar una sola versión por producto en `Dim_Products`.
 
-- **Eliminación de duplicado real:** se detectó y eliminó 1 registro 
+- **Eliminación de duplicado real:** Se detectó y eliminó 1 registro 
   duplicado exacto (Row_ID 3406/3407), diferenciándolo de 7 casos similares 
   que resultaron ser líneas de pedido legítimas y distintas.
