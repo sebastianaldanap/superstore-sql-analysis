@@ -1,4 +1,4 @@
-![Banner del proyecto](./screenshots/Banner_SQL.png)
+![Banner del proyecto](./screenshots/banner_data_academy.png)
 
 # Análisis de Rentabilidad y Eficiencia Operativa — Superstore (SQL Server)
 
