@@ -250,7 +250,7 @@ ORDER BY Rentabilidad_Total DESC;
 
 ![Pregunta 5](./screenshots/13_pregunta_05.png)
 
-**Interpretación e insight de negocio:** El top decil está compuesto por 79 clientes (10% de 793). Tamara Chand lidera con una diferencia notable sobre el segundo lugar. Existe una alta concentración de rentabilidad en relativamente pocos clientes, el patrón clásico 80/20 en retail.  
+**Interpretación e insight de negocio:** El top decil está compuesto por 79 clientes (10% de 793). Tamara Chand lidera con una diferencia notable sobre el segundo lugar. Existe una alta concentración de rentabilidad en relativamente pocos clientes.  
 **Recomendación:** Diseñar un programa de retención específico para este decil superior, comenzando por Tamara Chand como cliente ancla.
 
 ---
@@ -455,7 +455,7 @@ GROUP BY f.Region, p.Category;
 
 **Qué está ocurriendo**
 
-El negocio muestra una rentabilidad sólida y en aceleración. De una ganancia acumulada de apenas 2,450 en enero de 2014, se alcanzó un acumulado de 286,409.85 al cierre de 2017, con un crecimiento notablemente más rápido en los últimos dos años del período analizado. Esta salud general oculta un problema muy específico: la categoría Furniture, y en particular su sub-categoría Tables, arrastra pérdidas significativas, concentradas casi por completo en la región Central.
+El negocio muestra una rentabilidad sólida y en aceleración. De una ganancia acumulada de apenas 2,450 en enero de 2014, se alcanzó un acumulado de 286,409.85 al cierre de 2017, con un crecimiento notablemente más rápido en los últimos dos años del período analizado. Este buen desempeño general esconde un problema: la categoría Furniture, y en particular su sub-categoría Tables, arrastra pérdidas significativas, concentradas casi por completo en la región Central.
 
 **Por qué está ocurriendo**
 
@@ -463,7 +463,7 @@ El origen del problema está en la política de descuentos. El análisis muestra
 
 **Qué impacto tiene**
 
-El negocio depende de forma desproporcionada de unos pocos motores de rentabilidad. Un solo producto, el Canon imageCLASS 2200 Advanced Copier, genera más de tres veces la rentabilidad del segundo producto más rentable de su categoría. La rentabilidad de clientes también está concentrada: el 10% superior de clientes lidera con Tamara Chand muy por delante del resto, y un caso atípico, Sean Miller, gasta 9 veces el promedio de su propio segmento.
+El negocio depende de forma desproporcionada de unos pocos productos y clientes clave. Un solo producto, el Canon imageCLASS 2200 Advanced Copier, genera más de tres veces la rentabilidad del segundo producto más rentable de su categoría. La rentabilidad de clientes también está concentrada: el 10% superior de clientes lidera con Tamara Chand muy por delante del resto, y un caso atípico, Sean Miller, gasta 9 veces el promedio de su propio segmento.
 
 **Qué decisiones podrían tomarse**
 
@@ -477,7 +477,7 @@ El negocio depende de forma desproporcionada de unos pocos motores de rentabilid
 
 **Conclusiones Ejecutivas**
 
-El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negocio saludable y en crecimiento acelerado, con una rentabilidad acumulada que se multiplicó por más de 100 veces en el período. Este desempeño agregado positivo convive con focos de ineficiencia puntuales y concentraciones de riesgo que, de no gestionarse, podrían limitar el crecimiento futuro.
+El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negocio con buen desempeño y en crecimiento acelerado, con una rentabilidad acumulada que se multiplicó por más de 100 veces en el período. Este desempeño agregado positivo convive con algunos problemas puntuales de rentabilidad y riesgos de concentración que, de no gestionarse, podrían limitar el crecimiento futuro.
 
 **Hallazgos Principales**
 - La rentabilidad negativa se concentra en Furniture dentro de la región Central, impulsada principalmente por la sub-categoría Tables.
@@ -492,8 +492,8 @@ El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negoci
 
 **Riesgos Detectados**
 - Concentración de producto: dependencia del Canon imageCLASS 2200 para gran parte de la rentabilidad de Technology.
-- Concentración de cliente: el caso de Sean Miller sugiere una cuenta crítica sin gestión diferenciada aparente.
-- Erosión de margen por descuento no calibrado en Furniture y Office Supplies.
+- Concentración de cliente: el caso de Sean Miller sugiere una cuenta que no está recibiendo atención distinta a la de otros clientes.
+- Pérdida de margen por un descuento mal ajustado en Furniture y Office Supplies.
 
 **Recomendaciones Estratégicas**
 1. Implementar un techo de descuento cercano al 20%, con excepciones justificadas caso por caso.
