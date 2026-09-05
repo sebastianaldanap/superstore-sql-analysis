@@ -475,7 +475,7 @@ El negocio depende de forma desproporcionada de unos pocos productos y clientes 
 
 ## 9. Conclusiones y Recomendaciones
 
-**Conclusiones Ejecutivas**
+**Conclusiones**
 
 El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negocio con buen desempeño y en crecimiento acelerado, con una rentabilidad acumulada que se multiplicó por más de 100 veces en el período. Este desempeño agregado positivo convive con algunos problemas puntuales de rentabilidad y riesgos de concentración que, de no gestionarse, podrían limitar el crecimiento futuro.
 
