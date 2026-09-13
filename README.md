@@ -500,8 +500,3 @@ El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negoci
 2. Enfocar la revisión de pricing de Furniture específicamente en la región Central.
 3. Establecer un plan de continuidad de stock y proveedor para el Canon imageCLASS 2200.
 4. Crear un programa de cuentas clave para el top 10% de clientes por rentabilidad.
-
-**Próximos Pasos**
-- Extender el análisis a variables no incluidas en este dataset, como costos de inventario y devoluciones.
-- Monitorear trimestralmente el margen de Furniture en la región Central tras cualquier ajuste de pricing.
-- Evaluar la reclasificación de segmento para clientes atípicos como Sean Miller.
