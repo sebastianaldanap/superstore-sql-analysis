@@ -9,10 +9,9 @@
 3. [Tecnologías Utilizadas](#3-tecnologías-utilizadas)
 4. [Dataset Utilizado](#4-dataset-utilizado)
 5. [Metodología](#5-metodología)
-6. [Estructura del Repositorio](#6-estructura-del-repositorio)
-7. [Preguntas de Negocio](#7-preguntas-de-negocio)
-8. [Storytelling del Análisis](#8-storytelling-del-análisis)
-9. [Conclusiones y Recomendaciones](#9-conclusiones-y-recomendaciones)
+6. [Preguntas de Negocio](#7-preguntas-de-negocio)
+7. [Storytelling del Análisis](#8-storytelling-del-análisis)
+8. [Conclusiones y Recomendaciones](#9-conclusiones-y-recomendaciones)
 
 ## 1. Descripción del Proyecto
 Proyecto de análisis de datos desarrollado en SQL Server (T-SQL) sobre 
@@ -70,28 +69,7 @@ diccionario de datos completo en
 5. **Análisis:** Desarrollo de 10 preguntas de negocio progresivas 
    (de nivel básico a avanzado) más una vista de reporte reutilizable.
 
-## 6. Estructura del Repositorio
-
-```
-superstore-sql-analysis/
-├── README.md
-├── dataset/
-│   └── Superstores.csv
-├── scripts/
-│   ├── 01_create_staging_table.sql
-│   ├── 02_load_staging_data.sql
-│   ├── 03_data_quality_checks.sql
-│   ├── 04_data_cleaning.sql
-│   ├── 05_create_dimensional_model.sql
-│   └── 06_business_questions_01_10.sql
-├── screenshots/
-│   ├── banner_SQL.png
-│   └── (capturas numeradas de calidad de datos, modelo dimensional y preguntas de negocio)
-└── documentation/
-    └── diccionario_datos.md
-```
-
-## 7. Preguntas de Negocio
+## 6. Preguntas de Negocio
 
 ### Pregunta 1: ¿Cuáles son las 3 sub-categorías con mayor y menor rentabilidad total?
 
@@ -451,7 +429,7 @@ GROUP BY f.Region, p.Category;
 
 ---
 
-## 8. Storytelling del Análisis
+## 7. Storytelling del Análisis
 
 **Qué está ocurriendo**
 
@@ -473,7 +451,7 @@ El negocio depende de forma desproporcionada de unos pocos productos y clientes 
 
 ---
 
-## 9. Conclusiones y Recomendaciones
+## 8. Conclusiones y Recomendaciones
 
 **Conclusiones**
 
