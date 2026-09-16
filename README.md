@@ -9,9 +9,9 @@
 3. [Tecnologías Utilizadas](#3-tecnologías-utilizadas)
 4. [Dataset Utilizado](#4-dataset-utilizado)
 5. [Metodología](#5-metodología)
-6. [Preguntas de Negocio](#7-preguntas-de-negocio)
-7. [Storytelling del Análisis](#8-storytelling-del-análisis)
-8. [Conclusiones y Recomendaciones](#9-conclusiones-y-recomendaciones)
+6. [Preguntas de Negocio](#6-preguntas-de-negocio)
+7. [Storytelling del Análisis](#7-storytelling-del-análisis)
+8. [Conclusiones y Recomendaciones](#8-conclusiones-y-recomendaciones)
 
 ## 1. Descripción del Proyecto
 Proyecto de análisis de datos desarrollado en SQL Server (T-SQL) sobre 
