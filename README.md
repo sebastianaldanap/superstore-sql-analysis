@@ -83,6 +83,14 @@ FROM Fact_Orders f
 INNER JOIN Dim_Products p ON f.Product_ID = p.Product_ID
 GROUP BY p.Sub_Category
 ORDER BY Rentabilidad_Total DESC;
+
+SELECT TOP 3 
+    p.Sub_Category,
+    SUM(f.Profit) AS Rentabilidad_Total
+FROM Fact_Orders f
+INNER JOIN Dim_Products p ON f.Product_ID = p.Product_ID
+GROUP BY p.Sub_Category
+ORDER BY Rentabilidad_Total ASC;
 ```
 
 **Resultado:**
