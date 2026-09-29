@@ -18,8 +18,7 @@ Proyecto de análisis de datos desarrollado en SQL Server (T-SQL) sobre
 ~9,993 transacciones de una cadena retail (Superstore, 2014-2017), con foco 
 en identificar patrones de rentabilidad, eficiencia de descuentos y 
 comportamiento de clientes. Desarrollado como proyecto final del curso 
-"SQL for Data Analyst" (Data Academy Latam) y como pieza de portafolio 
-para procesos de selección como Data Analyst.
+"SQL for Data Analyst" (Data Academy Latam).
 
 ## 2. Objetivos
 
@@ -84,14 +83,6 @@ FROM Fact_Orders f
 INNER JOIN Dim_Products p ON f.Product_ID = p.Product_ID
 GROUP BY p.Sub_Category
 ORDER BY Rentabilidad_Total DESC;
-
-SELECT TOP 3 
-    p.Sub_Category,
-    SUM(f.Profit) AS Rentabilidad_Total
-FROM Fact_Orders f
-INNER JOIN Dim_Products p ON f.Product_ID = p.Product_ID
-GROUP BY p.Sub_Category
-ORDER BY Rentabilidad_Total ASC;
 ```
 
 **Resultado:**
