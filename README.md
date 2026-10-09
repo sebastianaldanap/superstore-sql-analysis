@@ -2,9 +2,7 @@
 
 # Análisis de Rentabilidad y Eficiencia Operativa — Superstore (SQL Server)
 
-Proyecto final del curso **SQL for Data Analyst** de la especialización en Data Analyst. Construí un modelo dimensional en SQL Server a partir de 9,903 transacciones de una cadena retail (Superstore, 2014-2017) y respondí 10 preguntas de negocio, desde consultas básicas hasta funciones de ventana.
-
-> **En breve:** el negocio es rentable y crece (286,409.85 de ganancia acumulada al cierre de 2017), pero pierde dinero cuando el descuento supera el 20% y en Furniture dentro de la región Central, donde Tables es la sub-categoría más afectada. Además, la rentabilidad depende mucho de un solo producto (Canon imageCLASS 2200) y de pocos clientes.
+**En breve:** el negocio es rentable y crece (286,409.85 de ganancia acumulada al cierre de 2017), pero pierde dinero cuando el descuento supera el 20% y en Furniture dentro de la región Central, donde Tables es la sub-categoría más afectada. Además, la rentabilidad depende mucho de un solo producto (Canon imageCLASS 2200) y de pocos clientes.
 
 ## Índice
 
