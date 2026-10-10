@@ -2,7 +2,7 @@
 
 # Análisis de Rentabilidad y Eficiencia Operativa — Superstore (SQL Server)
 
-**En breve:** el negocio es rentable y crece (286,409.85 de ganancia acumulada al cierre de 2017), pero pierde dinero cuando el descuento supera el 20% y en Furniture dentro de la región Central, donde Tables es la sub-categoría más afectada. Además, la rentabilidad depende mucho de un solo producto (Canon imageCLASS 2200) y de pocos clientes.
+El negocio es rentable y crece (286,409.85 de ganancia acumulada al cierre de 2017), pero pierde dinero cuando el descuento supera el 20% y en Furniture dentro de la región Central, donde Tables es la sub-categoría más afectada. Además, la rentabilidad depende mucho de un solo producto (Canon imageCLASS 2200) y de pocos clientes.
 
 ## Índice
 
