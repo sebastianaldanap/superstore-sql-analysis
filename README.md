@@ -294,7 +294,7 @@ ORDER BY Region, Porcentaje_Participacion DESC;
 
 ![Pregunta 7](./screenshots/15_pregunta_07.png)
 
-**Interpretación e insight de negocio:** Technology lidera la participación de ventas en 3 de las 4 regiones. La excepción es West, donde Furniture la supera por un margen mínimo. Office Supplies es consistentemente la categoría de menor participación en las 4 regiones, lo cual conecta con el hallazgo de la Pregunta 2 sobre concentración de pérdidas.  
+**Interpretación e insight de negocio:** Technology lidera la participación de ventas en 3 de las 4 regiones. La excepción es West, donde Furniture la supera por un margen mínimo. La participación está bastante repartida entre categorías en todas las regiones.  
 **Recomendación:** Evaluar si conviene redirigir recursos hacia Technology, que muestra fortaleza tanto en participación de ventas como en rentabilidad.
 
 ---
@@ -456,7 +456,7 @@ El negocio depende de forma desproporcionada de unos pocos productos y clientes 
 
 **Conclusiones**
 
-El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negocio con buen desempeño y en crecimiento acelerado, con una rentabilidad acumulada que se multiplicó por más de 100 veces en el período. Este desempeño agregado positivo convive con algunos problemas puntuales de rentabilidad y riesgos de concentración que, de no gestionarse, podrían limitar el crecimiento futuro.
+El análisis de 9,993 transacciones de Superstore (2014-2017) confirma un negocio con buen desempeño y en crecimiento acelerado, con una ganancia acumulada de 286,409.85 en el período. Este desempeño agregado positivo convive con algunos problemas puntuales de rentabilidad y riesgos de concentración que, de no gestionarse, podrían limitar el crecimiento futuro.
 
 **Hallazgos Principales**
 - La rentabilidad negativa se concentra en Furniture dentro de la región Central, impulsada principalmente por la sub-categoría Tables.
